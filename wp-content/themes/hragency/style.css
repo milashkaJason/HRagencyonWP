@@ -1,0 +1,61 @@
+/*!
+Theme Name: hragency
+Theme URI: http://underscores.me/
+Author: Underscores.me
+Author URI: http://underscores.me/
+Description: Description
+Version: 1.0.0
+Tested up to: 5.4
+Requires PHP: 5.6
+License: GNU General Public License v2 or later
+License URI: LICENSE
+Text Domain: hragency
+Tags: custom-background, custom-logo, custom-menu, featured-images, threaded-comments, translation-ready
+
+This theme, like WordPress, is licensed under the GPL.
+Use it to make something cool, have fun, and share what you've learned.
+
+hragency is based on Underscores https://underscores.me/, (C) 2012-2020 Automattic, Inc.
+Underscores is distributed under the terms of the GNU GPL v2 or later.
+
+Normalizing styles have been helped along thanks to the fine work of
+Nicolas Gallagher and Jonathan Neal https://necolas.github.io/normalize.css/
+*/
+.menu-item-type-custom {
+    list-style: none!important;
+    margin: 0 18px!important;
+}
+.menu-item-type-custom a {
+    color: #000!important;
+    text-decoration: none;
+    font-family: Montserrat;
+    font-style: normal!important;
+    font-size: 16px!important;
+    transition: all ease .2s!important;
+}
+.menu-item-type-custom a:hover {
+    transition: all ease .2s!important;
+    color: var(--primaryColor)!important;
+}
+.news_learn-more-btn a {
+    color: var(--lightText) !important;
+}
+.photo_feedbackpad {
+    padding: 0 0 20px 0!important;
+}
+.form {
+    text-align: center!important;
+}
+input[type=checkbox] {
+     display: inline!important;
+}
+.form_title:before {
+    left: 325px!important;
+}
+.leftToolbar a {
+    color: black!important;
+}
+.leftToolbar a:hover {
+    color: black!important;
+    text-decoration: none!important;
+}
