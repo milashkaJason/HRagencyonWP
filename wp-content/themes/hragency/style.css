@@ -59,3 +59,11 @@ input[type=checkbox] {
     color: black!important;
     text-decoration: none!important;
 }
+.header_search-menu {
+  border: none;
+  background: transparent;
+  border-bottom: 1px solid black;
+}
+.body-overflow {
+  overflow: hidden;
+}
